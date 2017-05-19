@@ -4,5 +4,5 @@ rvm:
   - 2.2
 
 script: 
-  - echo "hello!"
+  - echo "hello hello!"
   
