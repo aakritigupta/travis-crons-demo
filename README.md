@@ -1,4 +1,4 @@
-# Running Scheduled builds with Travis CI
+# Running Scheduled Builds with Travis CI
 This repo demonstrates the use of [Travis CI's Crons Feature](https://docs.travis-ci.com/user/cron-jobs).
 
 The branch [`demo-skip-ci`](https://github.com/aakritigupta/travis-crons-demo/tree/demo-skip-ci), demonstrates adding `[skip ci]` to the commit message to skip running a cron job on the branch.
