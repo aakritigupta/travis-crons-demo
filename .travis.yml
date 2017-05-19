@@ -1,0 +1,6 @@
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 
+  on:
+    condition: "$TRAVIS_EVENT_TYPE = cron"
