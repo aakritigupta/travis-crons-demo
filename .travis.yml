@@ -1,6 +1,9 @@
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: 
-  on:
-    condition: "$TRAVIS_EVENT_TYPE = cron"
+language: ruby
+rvm: 
+  - 2.1
+  
+install:
+  - gem install reek
+ 
+script:
+  - if [ "$TRAVIS_EVENT_TYPE" == "cron" ] ; then reek; fi
